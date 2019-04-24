@@ -94,3 +94,30 @@
 
 		//Is where all the beans are created and managed, where all the 
 		//core logic of the Spring framework happens
+
+/*-----------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------*/
+
+// DEPENDENCIES
+
+	@Component
+	public class TodoController {
+
+		@Autowired
+		TodoBusinessService businessService;
+	...
+
+	@Component 
+	public class TodoBusinessService {
+
+		@Autowired
+		TodoDataService dataService;
+	...
+
+	@Component
+	public class TodoDataService {
+
+		@Autowired
+		JdbcTemplate template;
+
+
