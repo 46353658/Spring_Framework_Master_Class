@@ -1,11 +1,20 @@
 package com.arshad.spring.basics.springin5steps;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
 public class BinarySearchImpl {
 	
+ 	@Autowired
 	private SortAlgorithm sortAlgorithm;
 	
-	public BinarySearchImpl(SortAlgorithm sortAlgorithm) {
-		super();
+//	public BinarySearchImpl(SortAlgorithm sortAlgorithm) {
+//		super();
+//		this.sortAlgorithm = sortAlgorithm;
+//	}
+	
+	public void setSortAlgorithm(SortAlgorithm sortAlgorithm) {
 		this.sortAlgorithm = sortAlgorithm;
 	}
 
@@ -16,4 +25,5 @@ public class BinarySearchImpl {
 		
 		return 3;
 	}
+
 }
