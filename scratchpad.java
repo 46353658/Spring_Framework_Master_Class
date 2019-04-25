@@ -121,3 +121,18 @@
 		JdbcTemplate template;
 
 
+/*-----------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------*/
+
+// BEAN SCOPE
+
+	// Default - singleton
+
+	// singleton - One instance per Spring Context
+		// @Scope(ConfigurableBeanFactory.SCOPE_SINGLETON)
+	// prototype - New bean whenever requested
+		// @Scope("prototype")
+		// @Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)
+	// request - One bean per HTTP request
+	// session - One bean per HTTP session
+
