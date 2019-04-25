@@ -136,3 +136,15 @@
 	// request - One bean per HTTP request
 	// session - One bean per HTTP session
 
+/*-----------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------*/
+
+// CDI (Context and dependency injection) -> An interface defining how to do dependency injection
+
+	// Java EE Dependency Injection Stardard (JSR-330)
+
+	// Spring supports most annotations
+		// @Inject (@Autowired)
+		// @Named (@Component & @Qualifier)
+		// @Singleton (Defines a scope of Singleton)
+
