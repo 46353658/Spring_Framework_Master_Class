@@ -3,8 +3,9 @@ package com.arshad.spring.basics.componentscan;
 import com.arshad.spring.basics.springin5steps.scope.JdbcConnection;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
-@Component
+@Repository
 public class ComponentDAO {
 //    @Autowired
 //    ComponentJdbcConnection jdbcConnection;

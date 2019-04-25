@@ -154,3 +154,30 @@
 	// What are the beans? -> Marked with @Component
 	// What are the dependencies of a bean? -> Marked with @Autowired
 	// Where to search for beans? => No need because of @SpringBootApplication (current package and subpackages will be searched) 
+
+/*-----------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------*/
+
+// In Spring there are 2 implementations of the IOC Container: BeanFactory and ApplicationContext
+
+	// ApplicationContext can be thought of as BeanFactory++
+	// BeanFactory doesn't provide support for internationalization but ApplicationContext provides support for it. 
+    // Another difference between BeanFactory vs ApplicationContext is ability to publish event to beans that are registered as listener.
+	
+	// ApplicationContext contains the following that BeanFactory does not:
+		// Spring's AOP features
+		// I18n capabilities
+		// WebApplicationContext for web applications etc
+
+	// You can use BeanFactory in cases where there is very littlestorage available on a device,
+	// for all typical enterprise application scenarios ApplicationContext is better suited 
+
+/*-----------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------*/
+
+// Component Annotations
+
+	// @Component => Generic Component
+	// @Repository => Encapsulating storage, retrieval, and search behavior typically from a relational database
+	// @Service => Business Service Facade
+	// @Controller => Controller in MVC pattern
