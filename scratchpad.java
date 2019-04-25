@@ -148,3 +148,9 @@
 		// @Named (@Component & @Qualifier)
 		// @Singleton (Defines a scope of Singleton)
 
+/*-----------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------*/
+
+	// What are the beans? -> Marked with @Component
+	// What are the dependencies of a bean? -> Marked with @Autowired
+	// Where to search for beans? => No need because of @SpringBootApplication (current package and subpackages will be searched) 
