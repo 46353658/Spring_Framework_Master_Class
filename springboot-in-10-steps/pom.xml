@@ -45,6 +45,11 @@
 			<scope>test</scope>
 		</dependency>
 		
+	    <dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+		</dependency>		
+		
 		<!-- Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured. -->
 		<dependency>
 			<groupId>com.h2database</groupId>
