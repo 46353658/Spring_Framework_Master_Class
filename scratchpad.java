@@ -181,3 +181,16 @@
 	// @Repository => Encapsulating storage, retrieval, and search behavior typically from a relational database
 	// @Service => Business Service Facade
 	// @Controller => Controller in MVC pattern
+
+// What happens when you type in a URL?
+
+	/*
+	1. You enter a URL into a web browser
+	2. The browser looks up the IP address for the domain name via DNS
+	3. The browser sends a HTTP request to the server
+	4. The server sends back a HTTP response
+	5. The browser begins rendering HTML
+	6. The browser sends requests for additional objects embedded in the HTML (images, css, JavaScript) and repeats steps 3-5
+	7. Once the page is loaded, the browser sends further async requests as needed.
+
+	 */
