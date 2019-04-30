@@ -1,7 +1,9 @@
-package com.arshad.spring.aop.springaop;
+package com.arshad.spring.aop.springaop.business;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import com.arshad.spring.aop.springaop.data.Dao2;
 
 @Service
 public class Business2 {

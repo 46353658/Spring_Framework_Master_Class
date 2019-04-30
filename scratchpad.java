@@ -198,3 +198,18 @@
 	7. Once the page is loaded, the browser sends further async requests as needed.
 
 	 */
+
+// Spring AOP terminology:
+
+	// Pointcut : execution(* com.arshad.spring.aop.springaop..*.*(..))
+		// defines which kinds of methods I would like to intercept
+
+	// Advice : the logic that should be applied to intercepted methods
+
+	// Aspect : The combination of a Pointcut and Advice 
+
+	// JoinPoint : Specific interception of a method call (specific instance)
+
+	// Weaving : this whole process gets "weaved" around your code
+
+	// Weaver : the framework that handles the logic of ensuring the Aspect is invoked at the right point 

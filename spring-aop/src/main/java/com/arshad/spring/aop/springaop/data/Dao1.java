@@ -1,4 +1,4 @@
-package com.arshad.spring.aop.springaop;
+package com.arshad.spring.aop.springaop.data;
 
 import org.springframework.stereotype.Repository;
 
