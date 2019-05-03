@@ -16,7 +16,7 @@ public class UserAccessAspect {
 	private Logger logger = LoggerFactory.getLogger(this.getClass());
 	//Which types of method calls I'd like to intercept
 //	@Before("execution(* com.arshad.spring.aop.springaop.business.*.*(..))")
-	@Before("execution(* com.arshad.spring.aop.springaop..*.*(..))")
+	@Before("com.arshad.spring.aop.springaop.aspect.CommonJoinPointConfig.dataLayerExecution()")
 	public void before(JoinPoint joinPoint) {
 		logger.info("Check for user access");
 		logger.info("Allowed execution for - {}", joinPoint);
