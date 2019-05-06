@@ -3,10 +3,12 @@ package com.arshad.database.databasedemo.entity;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.NamedQuery;
 import javax.persistence.Table;
 import java.util.Date;
 
 @Entity
+@NamedQuery(name="find_all_persons", query="select p from Person p")
 public class Person {
 
 	@Id
