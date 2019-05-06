@@ -29,7 +29,6 @@ public class Person {
 
 	public Person(String name, String location, Date birthDate) {
 		super();
-//		this.id = id;
 		this.name = name;
 		this.location = location;
 		this.birthDate = birthDate;
