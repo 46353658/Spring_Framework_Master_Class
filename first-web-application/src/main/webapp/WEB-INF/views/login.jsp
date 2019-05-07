@@ -13,7 +13,8 @@ Date date = new Date();
 %>
 <div>Current date is <%=date%></div>
 <body>
-JSP name ${name}
-JSP password ${password}
+<form action="/login.do" method="post">
+Enter your name <input type="text" name="name"/> <input type="submit" value="login"/> 
+</form>
 </body>
 </html>
