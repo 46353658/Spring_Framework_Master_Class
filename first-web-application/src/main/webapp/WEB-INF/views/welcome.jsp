@@ -7,6 +7,6 @@
 <title>Welcome</title>
 </head>
 <body>
-Welcome to welcome.jsp ${name} and your password is ${password}
+Welcome to ${name}
 </body>
 </html>
