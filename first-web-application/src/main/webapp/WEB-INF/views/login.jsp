@@ -7,6 +7,6 @@
 <title>JSP title</title>
 </head>
 <body>
-JSP body
+JSP body ${name}
 </body>
 </html>
